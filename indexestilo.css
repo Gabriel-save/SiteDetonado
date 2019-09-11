@@ -1,0 +1,69 @@
+body,
+html {
+    background-image: url(fundo.jpg);
+}
+
+#div1 {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+#icone {
+    color: antiquewhite;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+#div2 {
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+#div3 {
+    margin-left: 25%
+}
+
+
+.content{
+    background-color: blue;
+    border: 10px black;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-shadow:    1px 0px 0px red,
+                    -1px 0px 0px red,
+                    0px 1px 0px red,
+                    0px -1px 0px red; */
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #111;
+    text-decoration: none;
+    color: white;
+
+  }
+  
+.active{
+    background-color: rgb(51, 124, 53);
+    color: white;
+
+  }
